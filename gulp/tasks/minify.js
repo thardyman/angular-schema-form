@@ -16,7 +16,7 @@ gulp.task('minify', function() {
     dependencies: function() {
       return [
         {name: 'angular'},
-        {name: 'ObjectPath'},
+        {name: 'ObjectPath', cjs: 'objectpath'},
         {name: 'tv4'},
       ]
     },
